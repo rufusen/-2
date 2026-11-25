@@ -1,0 +1,9 @@
+[project]
+name = "time-tracker"
+version = "1.0.0"
+description = "Система управління проєктами та обліку робочого часу"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
